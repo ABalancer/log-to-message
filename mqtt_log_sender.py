@@ -27,7 +27,7 @@ def get_mqtt_messages_from_log(log_file_path):
 			if message_match is not None:  # Message may not be a dictionary
 				message_item = json.loads(message_match.group())
 			else:
-				message_item = re.search(message_string_pattern, line).group()
+				message_item = re.search(message_string_pattern, line).group().strip('"')
 			topic_string = re.search(topic_string_pattern, line).group()
 
 			times.append(time_string_to_datetime(date, message_time))
