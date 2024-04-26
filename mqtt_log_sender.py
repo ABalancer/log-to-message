@@ -3,8 +3,7 @@ import re
 import paho.mqtt.client as mqtt
 import time
 from datetime import datetime
-
-LOG_FILE_PATH = "mqtt_activity.log"
+import sys
 
 
 # function to simulate MQTT messages from log file
@@ -58,20 +57,27 @@ def send_data(topic_name, message_data):
 
 
 if __name__ == "__main__":
-	# MQTT broker settings
-	broker_address = "localhost"
-	broker_port = 1883
-	client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2)
-	client.connect(broker_address, broker_port, 60)
+	if len(sys.argv) > 1:
+		log_name = sys.argv[1]
 
-	log_file_path = "mqtt_activity.log"
-	times, topics, messages = get_mqtt_messages_from_log(LOG_FILE_PATH)
-	times = convert_times_to_seconds(times)
+		# MQTT broker settings
+		broker_address = "localhost"
+		broker_port = 1883
+		client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2)
+		client.connect(broker_address, broker_port, 60)
 
-	for i in range(len(times)):
-		print("Waiting %f seconds" % times[i])
-		time.sleep(times[i])
-		print("Sending topic: %s with message: %s" % (topics[i], messages[i]))
-		send_data(topics[i], messages[i])
+		times, topics, messages = get_mqtt_messages_from_log(log_name)
+		times = convert_times_to_seconds(times)
 
-	print("Log Complete")
+		for i in range(len(times)):
+			print("Waiting %f seconds" % times[i])
+			time.sleep(times[i])
+			print("Sending topic: %s with message: %s" % (topics[i], messages[i]))
+			send_data(topics[i], messages[i])
+
+		print("Log Complete!")
+		print("Program Closed")
+
+	else:
+		print("Usage: mqtt_log_sender.py \"log_file_name\" ")
+		print("Program Closed")
