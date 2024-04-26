@@ -1,0 +1,87 @@
+2024-04-26 11:29:29,584 - Received message: {"AnimationName": "WellDone", "Status": "Close"} from topic Animation
+2024-04-26 11:29:29,585 - Received message: {"AnimationName": "SitStand", "Status": "Start"} from topic Animation
+2024-04-26 11:29:32,995 - Received message: {"AnimationName": "TVMode", "Status": "Close"} from topic Animation
+2024-04-26 11:29:33,001 - Received message: {"AnimationName": "TeaMode", "Status": "Close"} from topic Animation
+2024-04-26 11:29:33,009 - Received message: {"AnimationName": "StandSit", "Status": "Start"} from topic Animation
+2024-04-26 11:29:33,103 - Received message: "Single" from topic CountData
+2024-04-26 11:29:35,786 - Received message: {"AnimationName": "WellDone", "Status": "Close"} from topic Animation
+2024-04-26 11:29:35,796 - Received message: {"AnimationName": "SitStand2", "Status": "Start"} from topic Animation
+2024-04-26 11:29:38,176 - Received message: {"AnimationName": "TVMode", "Status": "Close"} from topic Animation
+2024-04-26 11:29:38,184 - Received message: {"AnimationName": "TeaMode", "Status": "Close"} from topic Animation
+2024-04-26 11:29:38,186 - Received message: {"AnimationName": "WellDone", "Status": "Start"} from topic Animation
+2024-04-26 11:29:38,203 - Received message: "Single" from topic CountData
+2024-04-26 11:29:38,973 - Received message: "Double" from topic CountData
+2024-04-26 11:43:19,556 - Received message: {"AnimationName": "WellDone", "Status": "Close"} from topic Animation
+2024-04-26 11:43:19,563 - Received message: {"AnimationName": "SitStand", "Status": "Start"} from topic Animation
+2024-04-26 11:43:22,132 - Received message: {"AnimationName": "TVMode", "Status": "Close"} from topic Animation
+2024-04-26 11:43:22,138 - Received message: {"AnimationName": "TeaMode", "Status": "Close"} from topic Animation
+2024-04-26 11:43:22,141 - Received message: {"AnimationName": "StandSit", "Status": "Start"} from topic Animation
+2024-04-26 11:43:22,209 - Received message: "Single" from topic CountData
+2024-04-26 11:43:27,061 - Received message: {"AnimationName": "WellDone", "Status": "Close"} from topic Animation
+2024-04-26 11:43:27,077 - Received message: {"AnimationName": "SitStand2", "Status": "Start"} from topic Animation
+2024-04-26 11:43:29,145 - Received message: {"AnimationName": "TVMode", "Status": "Close"} from topic Animation
+2024-04-26 11:43:29,152 - Received message: {"AnimationName": "TeaMode", "Status": "Close"} from topic Animation
+2024-04-26 11:43:29,156 - Received message: {"AnimationName": "WellDone", "Status": "Start"} from topic Animation
+2024-04-26 11:43:29,206 - Received message: "Single" from topic CountData
+2024-04-26 11:43:29,980 - Received message: "Double" from topic CountData
+2024-04-26 11:45:54,804 - Received message: {"AnimationName": "TVMode", "Status": "Close"} from topic Animation
+2024-04-26 11:45:54,804 - Received message: {"AnimationName": "TeaMode", "Status": "Start"} from topic Animation
+2024-04-26 11:45:58,233 - Received message: {"AnimationName": "WellDone", "Status": "Close"} from topic Animation
+2024-04-26 11:45:58,241 - Received message: {"AnimationName": "SitStand", "Status": "Start"} from topic Animation
+2024-04-26 11:46:02,121 - Received message: {"AnimationName": "TVMode", "Status": "Close"} from topic Animation
+2024-04-26 11:46:02,124 - Received message: {"AnimationName": "TeaMode", "Status": "Close"} from topic Animation
+2024-04-26 11:46:02,126 - Received message: {"AnimationName": "StandSit", "Status": "Start"} from topic Animation
+2024-04-26 11:46:02,183 - Received message: "Single" from topic CountData
+2024-04-26 11:46:06,717 - Received message: {"AnimationName": "WellDone", "Status": "Close"} from topic Animation
+2024-04-26 11:46:06,718 - Received message: {"AnimationName": "SitStand2", "Status": "Start"} from topic Animation
+2024-04-26 11:46:10,366 - Received message: {"AnimationName": "TVMode", "Status": "Close"} from topic Animation
+2024-04-26 11:46:10,372 - Received message: {"AnimationName": "TeaMode", "Status": "Close"} from topic Animation
+2024-04-26 11:46:10,378 - Received message: {"AnimationName": "WellDone", "Status": "Start"} from topic Animation
+2024-04-26 11:46:10,424 - Received message: "Single" from topic CountData
+2024-04-26 11:46:11,163 - Received message: "Double" from topic CountData
+2024-04-26 11:46:30,363 - Received message: {"AnimationName": "TVMode", "Status": "Close"} from topic Animation
+2024-04-26 11:46:30,364 - Received message: {"AnimationName": "TeaMode", "Status": "Start"} from topic Animation
+2024-04-26 11:46:33,246 - Received message: {"AnimationName": "WellDone", "Status": "Close"} from topic Animation
+2024-04-26 11:46:33,249 - Received message: {"AnimationName": "SitStand", "Status": "Start"} from topic Animation
+2024-04-26 11:46:35,619 - Received message: {"AnimationName": "TVMode", "Status": "Close"} from topic Animation
+2024-04-26 11:46:35,623 - Received message: {"AnimationName": "TeaMode", "Status": "Close"} from topic Animation
+2024-04-26 11:46:35,628 - Received message: {"AnimationName": "StandSit", "Status": "Start"} from topic Animation
+2024-04-26 11:46:35,680 - Received message: "Single" from topic CountData
+2024-04-26 11:46:39,186 - Received message: {"AnimationName": "WellDone", "Status": "Close"} from topic Animation
+2024-04-26 11:46:39,188 - Received message: {"AnimationName": "SitStand2", "Status": "Start"} from topic Animation
+2024-04-26 11:46:59,184 - Received message: {"AnimationName": "TryAgain", "Status": "Start"} from topic Animation
+2024-04-26 11:47:16,671 - Received message: {"AnimationName": "TVMode", "Status": "Close"} from topic Animation
+2024-04-26 11:47:16,672 - Received message: {"AnimationName": "TeaMode", "Status": "Close"} from topic Animation
+2024-04-26 11:47:16,673 - Received message: {"AnimationName": "StandSit", "Status": "Start"} from topic Animation
+2024-04-26 11:47:16,762 - Received message: "Single" from topic CountData
+2024-04-26 11:47:21,064 - Received message: {"AnimationName": "WellDone", "Status": "Close"} from topic Animation
+2024-04-26 11:47:21,065 - Received message: {"AnimationName": "SitStand2", "Status": "Start"} from topic Animation
+2024-04-26 11:47:23,208 - Received message: {"AnimationName": "TVMode", "Status": "Close"} from topic Animation
+2024-04-26 11:47:23,210 - Received message: {"AnimationName": "TeaMode", "Status": "Close"} from topic Animation
+2024-04-26 11:47:23,216 - Received message: {"AnimationName": "WellDone", "Status": "Start"} from topic Animation
+2024-04-26 11:47:23,224 - Received message: "Single" from topic CountData
+2024-04-26 11:47:24,007 - Received message: "Double" from topic CountData
+2024-04-26 11:47:54,484 - Received message: {"AnimationName": "TVMode", "Status": "Close"} from topic Animation
+2024-04-26 11:47:54,485 - Received message: {"AnimationName": "TeaMode", "Status": "Start"} from topic Animation
+2024-04-26 11:47:57,088 - Received message: {"AnimationName": "WellDone", "Status": "Close"} from topic Animation
+2024-04-26 11:47:57,089 - Received message: {"AnimationName": "SitStand", "Status": "Start"} from topic Animation
+2024-04-26 11:47:58,696 - Received message: {"AnimationName": "TVMode", "Status": "Close"} from topic Animation
+2024-04-26 11:47:58,703 - Received message: {"AnimationName": "TeaMode", "Status": "Close"} from topic Animation
+2024-04-26 11:47:58,711 - Received message: {"AnimationName": "StandSit", "Status": "Start"} from topic Animation
+2024-04-26 11:47:58,724 - Received message: "Single" from topic CountData
+2024-04-26 11:48:18,692 - Received message: {"AnimationName": "TryAgain", "Status": "Start"} from topic Animation
+2024-04-26 11:48:37,678 - Received message: {"AnimationName": "TVMode", "Status": "Close"} from topic Animation
+2024-04-26 11:48:37,679 - Received message: {"AnimationName": "TeaMode", "Status": "Start"} from topic Animation
+2024-04-26 11:48:40,429 - Received message: {"AnimationName": "WellDone", "Status": "Close"} from topic Animation
+2024-04-26 11:48:40,430 - Received message: {"AnimationName": "SitStand", "Status": "Start"} from topic Animation
+2024-04-26 11:48:42,522 - Received message: {"AnimationName": "TVMode", "Status": "Close"} from topic Animation
+2024-04-26 11:48:42,525 - Received message: {"AnimationName": "TeaMode", "Status": "Close"} from topic Animation
+2024-04-26 11:48:42,530 - Received message: {"AnimationName": "StandSit", "Status": "Start"} from topic Animation
+2024-04-26 11:48:42,580 - Received message: "Single" from topic CountData
+2024-04-26 11:48:46,038 - Received message: {"AnimationName": "WellDone", "Status": "Close"} from topic Animation
+2024-04-26 11:48:46,041 - Received message: {"AnimationName": "SitStand2", "Status": "Start"} from topic Animation
+2024-04-26 11:48:48,676 - Received message: {"AnimationName": "TVMode", "Status": "Close"} from topic Animation
+2024-04-26 11:48:48,677 - Received message: {"AnimationName": "TeaMode", "Status": "Close"} from topic Animation
+2024-04-26 11:48:48,683 - Received message: {"AnimationName": "WellDone", "Status": "Start"} from topic Animation
+2024-04-26 11:48:48,739 - Received message: "Single" from topic CountData
+2024-04-26 11:48:49,538 - Received message: "Double" from topic CountData
